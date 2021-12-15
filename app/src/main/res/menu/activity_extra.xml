@@ -53,6 +53,10 @@
         android:visible="false"
         android:title="@string/hiddenfiles" />
     <item
+        android:id="@+id/newpage2"
+        android:visible="false"
+        android:title="NewPage2" />
+    <item
         android:id="@+id/sethome"
         android:title="@string/set_as_home"/>
     <item
@@ -62,8 +66,12 @@
 
     <!-- orderInCategory=100 to have the element exit always at the end of the list -->
     <item
+        android:orderInCategory="100"
+        android:title="newpage" />
+    <item
         android:id="@+id/exit"
-        android:title="@string/exit"
-        android:orderInCategory="100"/>
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:orderInCategory="101"
+        android:title="@string/exit" />
 
 </menu>
