@@ -3,4 +3,5 @@
     <item name="menu_new_folder" type="id" />
     <item name="menu_new_file" type="id" />
     <item name="menu_new_cloud" type="id" />
+    <item name="menu_new_audio" type="id" />
 </resources>
